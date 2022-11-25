@@ -1,0 +1,76 @@
+.footer {
+  background: #f5fcff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+
+  width: 100vw;
+  height: 32.4rem;
+}
+
+.fft-content-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 120rem;
+  height: 3rem;
+}
+
+.fft-logo {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1c1e53;
+}
+
+.fft-icons_ul {
+  display: flex;
+  list-style: none;
+  gap: 1.2rem;
+}
+
+.footer-link,
+.footer-link-dow {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 3.2rem;
+}
+
+.footer-link a {
+  text-decoration: none;
+  color: #000000;
+
+  font-size: 1.6rem;
+
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+}
+
+.fft-content-dow {
+  border-top: 1px solid rgba(40, 41, 56, 0.55);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 90%;
+  max-width: 120rem;
+  height: 5.4rem;
+}
+
+.fft-content-dow p {
+  color: #000000;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 150%;
+}
+
+.footer-link-dow a {
+  color: #000000;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 150%;
+}

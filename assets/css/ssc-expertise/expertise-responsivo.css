@@ -1,0 +1,72 @@
+@media (max-width: 768px) {
+  .expertise {
+    width: 100vw;
+    height: 70rem;
+  }
+
+  .ssc-exp-wrapper_div {
+    width: 76.8rem;
+    height: 70rem;
+    justify-content: initial;
+  }
+
+  .ssc-exp-ssc-title_div h4 {
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 10px;
+    margin-bottom: 0.9rem;
+  }
+
+  .ssc-exp-ssc-title_div h3 {
+    text-align: center;
+    font-size: 2.8rem;
+    padding: 10px;
+  }
+
+  .ssc-exp-ssc-skil_div {
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 76.8rem;
+    height: 70rem;
+    align-content: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .expertise {
+    height: 150rem;
+  }
+
+  .ssc-exp-wrapper_div {
+    width: 76.8rem;
+
+    height: 130rem;
+    justify-content: initial;
+  }
+
+  .ssc-exp-ssc-title_div h4 {
+    text-align: center;
+    font-size: 1.6rem;
+
+    margin-bottom: 0.9rem;
+  }
+
+  .ssc-exp-ssc-title_div h3 {
+    text-align: center;
+    font-size: 2.8rem;
+  }
+
+  .ssc-exp-ssc-skil_div {
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 76.8rem;
+    height: 120rem;
+    align-content: center;
+    justify-content: center;
+  }
+}

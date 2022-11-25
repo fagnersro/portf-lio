@@ -1,0 +1,68 @@
+.sobre-mim {
+  /* border: 1px solid red; */
+  width: 100vw;
+  height: 94.7rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sbm-wrapper_div {
+  /* border: 1px solid black; */
+  width: 120rem;
+  height: 74.7rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.ssc-sbm-img_div {
+  background: url(../../img/software-developer.jpg) center / cover no-repeat;
+  border-radius: 2.4rem;
+
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  max-width: 54rem;
+  height: 59rem;
+}
+
+.ssc-sbm-content_div {
+  /* border: 1px solid red; */
+  width: 61.6rem;
+  height: 30.3rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ssc-sbm-content_div h4 {
+  color: #282938;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 150%;
+}
+
+.ssc-sbm-content_div h3 {
+  color: #282938;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 120%;
+}
+
+.ssc-sbm-content_div p {
+  /* border: 1px solid greenyellow; */
+  color: #1c1e53;
+  width: 100%;
+  max-width: 700rem;
+  padding: 10px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 150%;
+}

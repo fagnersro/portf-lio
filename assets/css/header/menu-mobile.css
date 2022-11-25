@@ -1,0 +1,32 @@
+.open-menu {
+  display: none;
+}
+
+.close-menu {
+  display: none;
+}
+
+.wrapper-buttons {
+  display: flex;
+  z-index: 100;
+}
+
+.menu {
+  border: 1px solid red;
+  transform: translateY(100%);
+}
+
+.menu-ativo .menu {
+  background: #373737;
+
+  top: 0;
+  left: 0;
+
+  position: absolute;
+
+  width: 100vw;
+  height: 100vh;
+
+  transition: transform 300ms;
+  transform: translateY(0);
+}

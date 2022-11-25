@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+  .ssc-port-content-dow_div {
+    flex-direction: column;
+    align-items: center;
+    height: 159.1rem;
+  }
+
+  .content-card-content_div {
+    width: 100%;
+  }
+
+  .card-discr_div {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .ssc-port-card_div {
+    width: 30rem;
+  }
+
+  .card-discr_div h3 {
+    font-size: 2rem;
+    line-height: 140%;
+  }
+
+  .card-discr_div p {
+    font-size: 1.3rem;
+    line-height: 150%;
+  }
+}

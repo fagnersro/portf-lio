@@ -1,0 +1,51 @@
+.navegation,
+.navegation-wrapper,
+.navegation-btn-cv {
+  width: 100vw;
+  height: 9rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navegation-wrapper {
+  width: 90%;
+  height: 100%;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 3rem;
+}
+
+.navegation-wrapper-menu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.navegation-menu-li a {
+  color: #5e3bee;
+}
+
+.navegation-menu-li:hover {
+  border-bottom: 1px solid blue;
+}
+
+.navegation-btn-cv {
+  border: 1px solid #5e3bee;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  color: #5e3bee;
+  display: flex;
+  padding: 0.5rem;
+  width: 15rem;
+  height: 4rem;
+}

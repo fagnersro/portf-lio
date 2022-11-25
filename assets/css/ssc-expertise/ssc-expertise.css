@@ -1,0 +1,103 @@
+.expertise {
+  /* border: 1px solid purple; */
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ssc-exp-wrapper_div {
+  /* border: 1px solid red; */
+  width: 120rem;
+  height: 47rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ssc-exp-ssc-title_div h4 {
+  color: #282938;
+
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 150%;
+  margin-bottom: 1.6rem;
+}
+
+.ssc-exp-ssc-title_div h3 {
+  color: #282938;
+
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 120%;
+}
+
+.ssc-exp-ssc-skil_div {
+  /* border: 1px solid black; */
+  width: 120rem;
+  height: 27.8rem;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: flex-start;
+  gap: 2.4rem;
+}
+
+.ssc-exp-ssc-card_div {
+  background: #f5fcff;
+
+  padding: 2.4rem;
+  width: 100%;
+
+  max-width: 30.4rem;
+  height: 27.8rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.ssc-exp-ssc-card_div h3 {
+  color: #282938;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 140%;
+}
+
+.ssc-exp-ssc-card_div p {
+  color: #282938;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  transition: all 200ms;
+}
+
+.ssc-exp-gestão_class p:hover {
+  color: orange;
+  border-bottom: 0.3rem solid orange;
+  cursor: zoom-in;
+}
+
+.ssc-exp-web-developer_class p:hover {
+  color: lightblue;
+  border-bottom: 0.3rem solid lightblue;
+  cursor: zoom-in;
+}
+
+.ssc-tecnologias_class p:hover {
+  color: blue;
+  border-bottom: 0.3rem solid blue;
+  cursor: zoom-in;
+}
+
+.ssc-exp-ferramentas_class p:hover {
+  color: darkgray;
+  border-bottom: 0.3rem solid darkgray;
+  cursor: zoom-in;
+}

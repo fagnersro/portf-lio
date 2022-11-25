@@ -1,0 +1,104 @@
+.home {
+  /* border: 1px solid red; */
+  background: #f5fcff;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+
+  width: 100vw;
+  height: 74.731rem;
+}
+
+.ssc-home-wrapper_div {
+  /* border: 1px solid black; */
+  width: 120rem;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ssc-home-left_div {
+  /* border: 1px solid blue; */
+  width: 59.3rem;
+  height: 39.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.ssc-home-left-wrapper_div {
+  width: 100%;
+
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 1.6rem;
+}
+
+.ssc-home-left_div h1 {
+  max-width: 920px;
+  color: #282938;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 150%;
+}
+
+.ssc-home-left-chamada_p {
+  width: 100%;
+
+  color: #282938;
+  font-weight: 700;
+  font-size: 5.6rem;
+  line-height: 120%;
+}
+
+.ssc-home-left-pharagraf_p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 150%;
+}
+
+.ssc-home-right_div {
+  width: 68.8rem;
+  height: 54.7.31rem;
+}
+
+.ssc-home-left-btn_a {
+  background: #5e3bee;
+  border-radius: 0.4rem;
+
+  color: #ffffff;
+
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1.4rem 3.2rem;
+
+  width: 12.8rem;
+  height: 5.2rem;
+}
+
+.ssc-home-right_div {
+  /* border: 1px solid purple; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ssc-home-right_div img {
+  border-radius: 100%;
+
+  width: 45rem;
+  height: 40rem;
+}

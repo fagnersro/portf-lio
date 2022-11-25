@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/./header/header.css" />
+    <link rel="stylesheet" href="./assets/css/ssc-home/ssc-home.css" />
+    <!-- prettier-ignore -->
+    <link rel="stylesheet" href="./assets/css/ssc-expertise/ssc-expertise.css" />
+    <!-- prettier-ignore -->
+    <link rel="stylesheet" href="./assets/css/ssc-sobre-mim/ssc-sobre-mim.css" />
+    <!-- prettier-ignore -->
+    <link rel="stylesheet"  href="./assets/css/ssc-portifolio/ssc-portifolio.css" />
+
+    <link rel="stylesheet" href="./assets/css/ssc-portifolio/content-dow.css" />
+    <link rel="stylesheet" href="./assets/css/formulário/formulario.css" />
+    <link rel="stylesheet" href="./assets/css/formulário/inputs.css" />
+    <link rel="stylesheet" href="./assets/css/formulário/select.css" />
+    <link rel="stylesheet" href="./assets/css/footer/footer.css" />
+
+    <!-- prettier-ignore -->
+    <link rel="stylesheet" href="./assets/css/header/header-responsive.css" />
+    <!-- prettier-ignore -->
+    <link rel="stylesheet" href="./assets/css/header/menu-mobile.css" />
+
+    <link rel="stylesheet" href="./assets/css/ssc-home/home-responsivo.css" />
+    <!-- prettier-ignore -->
+    <link rel="stylesheet" href="./assets/css/ssc-expertise/expertise-responsivo.css" />
+    <!-- prettier-ignore -->
+    <link rel="stylesheet" href="./assets/css/ssc-sobre-mim/sobre-responsivo.css" />
+    <!-- prettier-ignore -->
+    <link rel="stylesheet" href="./assets/css/ssc-portifolio/portifolio-responsivo.css" />
+    <!-- prettier-ignore -->
+    <link rel="stylesheet" href="./assets/css/ssc-portifolio/content-dow-responsivo.css" />
+    <!-- prettier-ignore -->
+    <link rel="stylesheet" href="./assets/css/formulário/form-responsivo.css" />
+    <!-- prettier-ignore -->
+    <link rel="stylesheet" href="./assets/css/formulário/inputs-responsivel.css" />
+    <!-- prettier-ignore -->
+    <link rel="stylesheet" href="./assets/css/footer/footer-responsivo.css" />
+
+    <title>Fagner Dev</title>
+  </head>
+
+  <nav class="navegation">
+    <div class="navegation-wrapper">
+      <p class="logo">Fagner Henrique</p>
+      <div class="menu">
+        <ul class="navegation-wrapper-menu">
+          <li class="navegation-menu-li"><a href="">Inicio</a></li>
+          <li class="navegation-menu-li"><a href="">Portifólio</a></li>
+          <li class="navegation-menu-li"><a href="">Sobre mim</a></li>
+          <li class="navegation-menu-li"><a href="">Contato</a></li>
+        </ul>
+      </div>
+      <a class="navegation-btn-cv" href="">Download Currículo</a>
+      <div class="wrapper-buttons">
+        <button class="close-menu" onclick="closeMenu()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-x-lg"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"
+            />
+          </svg>
+        </button>
+        <button class="open-menu" onclick="openMenu()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-justify-right"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M6 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-4-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <body>
+    <main>
+      <section class="home" id="homer">
+        <div class="ssc-home-wrapper_div">
+          <div class="ssc-home-left_div">
+            <div class="ssc-home-left-wrapper_div">
+              <h1>Olá, eu sou Fagner 👋</h1>
+              <p class="ssc-home-left-chamada_p">
+                Eu crio páginas e telas de
+                <span style="color: #5e3bee">aplicações para web</span>.
+              </p>
+              <p class="ssc-home-left-pharagraf_p">
+                sou formado em front end e atualmente estou participando no
+                Projeto Oracle ONE na Alura.
+              </p>
+            </div>
+            <a class="ssc-home-left-btn_a" href="#">Contato</a>
+          </div>
+          <div class="ssc-home-right_div">
+            <img
+              src="./assets/img/img-css-chamada-home2.png"
+              alt=""
+              srcset=""
+            />
+          </div>
+        </div>
+      </section>
+      <section class="expertise">
+        <div class="ssc-exp-wrapper_div">
+          <div class="ssc-exp-ssc-title_div">
+            <h4>Minhas Habilidades</h4>
+            <h3>Minhas experiências</h3>
+          </div>
+          <div class="ssc-exp-ssc-skil_div">
+            <div class="ssc-exp-ssc-card_div ssc-exp-gestão_class">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="35"
+                  height="35"
+                  fill="#282938"
+                  class="bi bi-clock-history"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8.515 1.019A7 7 0 0 0 8 1V0a8 8 0 0 1 .589.022l-.074.997zm2.004.45a7.003 7.003 0 0 0-.985-.299l.219-.976c.383.086.76.2 1.126.342l-.36.933zm1.37.71a7.01 7.01 0 0 0-.439-.27l.493-.87a8.025 8.025 0 0 1 .979.654l-.615.789a6.996 6.996 0 0 0-.418-.302zm1.834 1.79a6.99 6.99 0 0 0-.653-.796l.724-.69c.27.285.52.59.747.91l-.818.576zm.744 1.352a7.08 7.08 0 0 0-.214-.468l.893-.45a7.976 7.976 0 0 1 .45 1.088l-.95.313a7.023 7.023 0 0 0-.179-.483zm.53 2.507a6.991 6.991 0 0 0-.1-1.025l.985-.17c.067.386.106.778.116 1.17l-1 .025zm-.131 1.538c.033-.17.06-.339.081-.51l.993.123a7.957 7.957 0 0 1-.23 1.155l-.964-.267c.046-.165.086-.332.12-.501zm-.952 2.379c.184-.29.346-.594.486-.908l.914.405c-.16.36-.345.706-.555 1.038l-.845-.535zm-.964 1.205c.122-.122.239-.248.35-.378l.758.653a8.073 8.073 0 0 1-.401.432l-.707-.707z"
+                  />
+                  <path
+                    d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0v1z"
+                  />
+                  <path
+                    d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z"
+                  />
+                </svg>
+                <h3>Empresa sendo ágil</h3>
+              </div>
+
+              <p>
+                Desenvolver para se adaptar rapidamente às mudanças, entregando
+                valor e confiança para os clientes.
+              </p>
+            </div>
+            <div class="ssc-exp-ssc-card_div ssc-exp-web-developer_class">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="35"
+                  height="35"
+                  fill="#282938"
+                  class="bi bi-code-slash"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"
+                  />
+                </svg>
+                <h3>Front End</h3>
+              </div>
+
+              <p>
+                Responsividade, Grid, Javascript DOM, Interfaces, Heranças,
+                Orientacão a objetos, Ajax, Crud, React, Node JS.
+              </p>
+            </div>
+            <div class="ssc-exp-ssc-card_div ssc-tecnologias_class">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="35"
+                  height="35"
+                  fill="#282938"
+                  class="bi bi-joystick"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M10 2a2 2 0 0 1-1.5 1.937v5.087c.863.083 1.5.377 1.5.726 0 .414-.895.75-2 .75s-2-.336-2-.75c0-.35.637-.643 1.5-.726V3.937A2 2 0 1 1 10 2z"
+                  />
+                  <path
+                    d="M0 9.665v1.717a1 1 0 0 0 .553.894l6.553 3.277a2 2 0 0 0 1.788 0l6.553-3.277a1 1 0 0 0 .553-.894V9.665c0-.1-.06-.19-.152-.23L9.5 6.715v.993l5.227 2.178a.125.125 0 0 1 .001.23l-5.94 2.546a2 2 0 0 1-1.576 0l-5.94-2.546a.125.125 0 0 1 .001-.23L6.5 7.708l-.013-.988L.152 9.435a.25.25 0 0 0-.152.23z"
+                  />
+                </svg>
+                <h3>Tecnologias</h3>
+              </div>
+
+              <p>
+                HTML5, CSS3, JavaScript<br />
+                TypeScript, Java, Node JS.
+              </p>
+            </div>
+            <div class="ssc-exp-ssc-card_div ssc-exp-ferramentas_class">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="35"
+                  height="35"
+                  fill="#282938"
+                  class="bi bi-gear"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"
+                  />
+                  <path
+                    d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"
+                  />
+                </svg>
+                <h3>Ferramentas</h3>
+              </div>
+
+              <p>Git, GitHub, VS Code, InkScape, PowerShell, Vite.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sobre-mim" id="sbr-mim">
+        <div class="sbm-wrapper_div">
+          <div class="ssc-sbm-img_div"></div>
+          <div class="ssc-sbm-content_div">
+            <h4>Sobre</h4>
+            <h3>Sobre mim</h3>
+            <p>
+              Nascido em pernambuco morador da cidade do Recife aos 27 anos amo
+              programar e estudar assuntos relacionado a tecnologia, tive
+              contato muito forte com ela na minha adolesência através de jogos
+              eletrônicos, lan houses, e redes sociais da época
+            </p>
+            <p>
+              Aos 17 anos comecei a trabalhar com TI e dois anos seguinte saltei
+              para a Refrigeração hoje em transição dedico-me ao Desenvolvimento
+              de software e engenharias relacionadas a tecnologia amo praticar
+              esportes, tocar violão e conhecer novos lugares
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="portifolio" id="prtfolio">
+        <div class="ssc-port-wrapper_div">
+          <div class="ssc-port-header_div">
+            <div class="ssc-port-header-title_div">
+              <h4>Projetos recentes</h4>
+              <h3>Meu Portifólio</h3>
+            </div>
+            <a class="ssc-port-header-btn_a" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="35"
+                height="35"
+                fill="currentColor"
+                class="bi bi-github"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                />
+              </svg>
+              Visite GitHub
+            </a>
+          </div>
+
+          <div class="ssc-port-content-dow_div">
+            <div class="ssc-port-card_div">
+              <div class="content-card-header_div codificador"></div>
+              <div class="content-card-content_div">
+                <div class="card-discr_div">
+                  <h3>Codificador</h3>
+                  <p>
+                    criptografia ? assim você poderá trocar mensagens secretas
+                    com outras pessoas que saibam o segredo da criptografia
+                    utilizada.
+                  </p>
+                  <a class="card-content-link_a" href="">
+                    Visitar
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#5e3bee"
+                      class="bi bi-arrow-up-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="ssc-port-card_div">
+              <div class="content-card-header_div forca"></div>
+              <div class="content-card-content_div">
+                <div class="card-discr_div">
+                  <h3>Jogo da forca</h3>
+                  <p>
+                    Adivinhe a palavra escolhida aleatoriamente pela aplicação e
+                    salve o Dev da forca, esse game foi todo construido com
+                    JavaScript Puro, HTML5, CSS3.
+                  </p>
+                  <a class="card-content-link_a" href="">
+                    Visitar
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#5e3bee"
+                      class="bi bi-arrow-up-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="ssc-port-card_div">
+              <div class="content-card-header_div geek"></div>
+              <div class="content-card-content_div">
+                <div class="card-discr_div">
+                  <h3>Alura Geek</h3>
+                  <p>
+                    Está precisando trazer mais clientes e aumentar suas vendas
+                    ? implementar um e-commerce e levar a empresa ao próximo
+                    patamar digital ?
+                  </p>
+                  <a class="card-content-link_a" href="">
+                    Visitar
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#5e3bee"
+                      class="bi bi-arrow-up-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="formulario" id="lform">
+        <div class="ssc-form-wrapper_div">
+          <div class="ssc-form-title_div">
+            <h4>Entrar em contato</h4>
+            <div>
+              <h3>Contate-me</h3>
+              <p>Preencha que retornarei o mais rápido possivel</p>
+            </div>
+          </div>
+          <div class="ssc-form-form_div">
+            <form action="">
+              <div class="form-name inputs">
+                <label class="lb-name" for="name"
+                  >Nome
+                  <input type="text" name="nome" id="name" required />
+                </label>
+                <label for="sobrename"
+                  >Sobrenome
+                  <input type="text" name="sobrenome" id="sobrename" required />
+                </label>
+              </div>
+              <div class="form-email-phone inputs">
+                <label class="lb-mail" for="mail"
+                  >Email
+                  <input type="email" name="email" id="mail" required />
+                </label>
+                <label class="lb-phone" for="phone"
+                  >Telefone
+                  <input
+                    type="tel"
+                    name="telefone"
+                    id="phone"
+                    required
+                    placeholder="WhatsApp "
+                  />
+                </label>
+              </div>
+              <div class="form-block inputs">
+                <div class="form-choose">
+                  <label class="lb-select" for="topic"
+                    >Assunto
+                    <select
+                      class="select personalizar-select"
+                      name="assuntos"
+                      id="topic"
+                    >
+                      <option value="select">Escolher</option>
+                      <option value="">Contratação</option>
+                      <option value="">Informações</option>
+                      <option value="">Feedbacks</option>
+                    </select>
+                  </label>
+                </div>
+                <div class="textarea-box">
+                  <label class="lb-area" for="txtarea">
+                    Menssagem
+                    <textarea
+                      class="textarea"
+                      name=""
+                      id="txtarea"
+                      cols="30"
+                      rows="10"
+                      placeholder="Digite sua mensagem ..."
+                    ></textarea>
+                  </label>
+                </div>
+                <div class="form-acc-submit_div">
+                  <button class="form-btn-sbt" type="submit">Enviar</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="fft-content-top">
+        <p class="fft-logo">Fagner Henrique</p>
+        <nav class="hd-navegation_nav footer-link">
+          <ul class="footer-link">
+            <li><a href="#homer">Inicio</a></li>
+            <li><a href="#prtfolio">Portifólio</a></li>
+            <li><a href="#sbr-mim">Sobre mim</a></li>
+          </ul>
+        </nav>
+        <ul class="fft-icons_ul">
+          <li>
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill=" #000000"
+                class="bi bi-facebook"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+                />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill=" #000000"
+                class="bi bi-instagram"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill=" #000000"
+                class="bi bi-twitter"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+                />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill=" #000000"
+                class="bi bi-linkedin"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="fft-content-dow">
+        <p>Fagner Dev</p>
+        <ul class="footer-link-dow">
+          <li><a href="">Politica</a></li>
+          <li><a href="">Termos</a></li>
+          <li><a href="">Cookies</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>

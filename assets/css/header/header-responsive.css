@@ -1,0 +1,31 @@
+@media screen and (max-width: 768px) {
+  .logo {
+    font-size: 2rem;
+  }
+
+  .navegation-wrapper-menu {
+    display: none;
+  }
+
+  .navegation-btn-cv {
+    display: none;
+  }
+
+  .navegation-wrapper {
+    min-width: none;
+  }
+
+  button.open-menu {
+    display: flex;
+  }
+
+  button.close-menu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .logo {
+    font-size: 1.6rem;
+  }
+}
